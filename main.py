@@ -81,9 +81,9 @@ class Bill:
 
 
 # Sample usage
-admin = SystemAdmin(1, "Shakur", "123456789", "North road")
-receptionist = Receptionist(1, "Adil", "987654321", "North road")
-customer = Customer(1, "Shakur_D", "111222333", "North road")
+admin = SystemAdmin(1, "Rashed", "123456789", "North road")
+receptionist = Receptionist(1, "Zayed", "987654321", "North road")
+customer = Customer(1, "Mohammed", "111222333", "North road")
 room = Rooms(101)
 bill = receptionist.generate_bill(customer, 500)
 customer.pay_bill(bill)
